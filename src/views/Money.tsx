@@ -6,6 +6,7 @@ import CategorySection from "./Money/CategorySection";
 import NotesSection from "./Money/NotesSection";
 import NumberSection from "./Money/NumberSection";
 import TagsSection from "./Money/TagsSection";
+import QRCode from "../components/QRCode";
 
 const MyLayout = styled(Layout)`
   display: flex;
@@ -56,6 +57,7 @@ function Money() {
         onChange={(amount) => onChange({ amount })}
         onOK={submit}
       />
+      <QRCode />
     </MyLayout>
   );
 }
