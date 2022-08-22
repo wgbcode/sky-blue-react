@@ -2,21 +2,22 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.section`
-  font-size: 24px;
+  font-size: 20px;
   color: #000000;
   > ul {
     display: flex;
+    background: white;
     > li {
       width: 50%;
       text-align: center;
       padding: 21px 70px;
       position: relative;
-      white-space:nowrap;
+      white-space: nowrap;
       &.selected::after {
         content: "";
         display: block;
         height: 3px;
-        background: red;
+        background: #4aae96;
         position: absolute;
         bottom: 0;
         left: 0;

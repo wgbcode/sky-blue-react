@@ -34,8 +34,11 @@ const useRecords = () => {
     setRecords([...records, record]);
     return true;
   };
+  const removeRecord = (id: number) => {
+    setRecords(records.filter((r) => r.tagIds[0] !== id));
+  };
 
-  return { records, addRecord };
+  return { records, addRecord, removeRecord };
 };
 
 export default useRecords;

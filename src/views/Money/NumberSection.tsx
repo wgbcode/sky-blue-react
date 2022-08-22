@@ -25,7 +25,7 @@ const NumberSection: React.FC<Props> = (props) => {
     if (text === null) {
       return;
     }
-    if (text === "OK") {
+    if (text === "保存") {
       if (props.onOK) {
         props.onOK();
       }
@@ -50,7 +50,7 @@ const NumberSection: React.FC<Props> = (props) => {
         <button>7</button>
         <button>8</button>
         <button>9</button>
-        <button className="ok">OK</button>
+        <button className="ok">保存</button>
         <button className="zero">0</button>
         <button>.</button>
       </div>

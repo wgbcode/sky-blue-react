@@ -58,10 +58,9 @@ const Tag: React.FC = (props) => {
           删除标签
         </Button>
       </Center>
-      )
     </div>
   );
-  const history = useHistory()
+  const history = useHistory();
   const onClickBack = () => {
     history.goBack();
   };

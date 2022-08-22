@@ -4,7 +4,7 @@ import QRCodePng from "../img/QRCode.png";
 function QRCode() {
   const width = document.body.clientWidth;
   useEffect(() => {
-    if (width > 500) alert("请扫描二维码，使用手机打开该网页！");
+    if (width > 500) alert("为保证浏览效果，请使用手机浏览本页面！");
   }, [width]);
   return (
     <Fragment>
@@ -22,8 +22,8 @@ function QRCode() {
             src={QRCodePng}
             alt=""
             style={{
-              height: 250,
-              width: 250,
+              height: 350,
+              width: 350,
               position: "absolute",
               top: "50%",
               left: "50%",

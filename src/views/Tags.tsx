@@ -11,10 +11,11 @@ const TagList = styled.ol`
   background: #ffffff;
   font-size: 16px;
   > li {
+    padding: 0 0 4px 0;
     > a {
-      padding: 12px 16px 16px 0;
-      margin-left: 16px;
-      border-bottom: 3px solid #dddde0;
+      padding: 16px 4px 8px 4px;
+      margin: 0 16px;
+      border-bottom: 1px solid #dddde0;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -22,11 +23,12 @@ const TagList = styled.ol`
   }
 `;
 const Button = styled.button`
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 500;
   color: white;
-  background: #767676;
+  background: #5fb39b;
   border: none;
-  padding: 8px 14px;
+  padding: 12px 18px;
   border-radius: 4px;
 `;
 

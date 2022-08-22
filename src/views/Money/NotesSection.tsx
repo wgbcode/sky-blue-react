@@ -4,10 +4,11 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   > label {
-    padding: 10px 16px;
+    padding: 15px 16px;
+    background: #f6f6f8;
     > input {
-      height: 70px;
-      background: #f5f5f5;
+      height: 30px;
+      background: #f6f6f8;
     }
   }
 `;

@@ -3,13 +3,13 @@ import React from "react";
 import useTags from "components/hooks/useTag";
 
 const Wrapper = styled.section`
-  background: #ffffff;
+  background: #fdfaf3;
   padding: 12px 16px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: space-between;
   > ol {
     margin: 0 -12px;
     > li {
@@ -20,7 +20,7 @@ const Wrapper = styled.section`
       font-size: 16px;
       margin: 8px 12px;
       &.selected {
-        background: #f60;
+        background: #5fb39b;
       }
     }
   }
@@ -33,6 +33,8 @@ const Button = styled.button`
   padding: 2px 4px;
   color: #666;
   margin-top: 7px;
+  margin-bottom: 12px;
+  font-size: 16px;
 `;
 
 type Props = {
