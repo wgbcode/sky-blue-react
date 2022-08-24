@@ -1,6 +1,6 @@
-`React` `React-Dom` `React-Create-App` `React-Router-Dom` `styled-components` `TypeScript` `SCSS`
-
 **应用暂不支持非 X5 内核的微信内置浏览器**
+
+`React` `React-Dom` `React-Create-App` `React-Router-Dom` `styled-components` `TypeScript` `SCSS`
 
 ## 项目介绍
 
