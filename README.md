@@ -10,7 +10,7 @@
 `yarn install`
 `yarn start`
 
-**开发主要过程**
+## 开发主要过程
 
 - 使用 react-create-app 搭建 react 开发环境。
 - 利用 React-Router-dom 创建路由，根据 Link 标签进行跳转。
