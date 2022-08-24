@@ -7,7 +7,9 @@
 ## 使用项目
 
 `git clone SSR_URL`
+
 `yarn install`
+
 `yarn start`
 
 ## 开发主要过程
