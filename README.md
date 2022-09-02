@@ -1,7 +1,5 @@
 **应用暂不支持非 X5 内核的微信内置浏览器**
 
-`React` `React-Dom` `React-Create-App` `React-Router-Dom` `styled-components` `TypeScript` `SCSS`
-
 ## 项目介绍
 
 本项目是基于 React 框架实现的简易记账应用，支持标签删减、账目记录和数据查询等功能。
